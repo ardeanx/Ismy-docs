@@ -109,7 +109,7 @@ export function generate({
               fontWeight: 600,
             }}
           >
-            Fumadocs
+            IsmyBio
           </p>
         </div>
       </div>

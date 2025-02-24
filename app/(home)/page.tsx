@@ -5,8 +5,11 @@ export default function HomePage() {
   return (
     <main className="flex flex-1 flex-col justify-center text-center">
       <title>IsmyBio Documentation</title>
-        <meta name="description" content="Welcome to IsmyBio, your personal bio page." />
+      <meta charSet='utf-8' />
+        <meta name="description" content="Welcome to IsmyBio Tutorials." />
         <meta name="keywords" content="IsmyBio, bio, documentation, tutorials" />
+        <meta name="Ardean Studio" content="IsmyBio" />
+        <meta property='og:image' content='/og.png' />
         <h1 className="text-5xl font-bold text-fd-secondary-foreground">Learn to use</h1> <br></br><br></br>
       <center><Image src="/hero.png" alt="IsmyBio" width={750} height={500} /></center> <br></br><br></br>
       <div className="flex flex-row gap-2 items-center text-fd-muted-foreground justify-center">
