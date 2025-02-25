@@ -2,6 +2,18 @@
     "title": "How To",
     "icon": "BadgeInfo",
     "pages": [
-        "create-biolinks"
+        "create-biolinks",
+        "shorten-link",
+        "create-filelink",
+        "create-vcard",
+        "create-event",
+        "create-staticsite",
+        "create-qrcode",
+        "create-signature",
+        "connect-domain",
+        "create-pixel",
+        "create-project",
+        "create-splash",
+        "integrate-payment"
     ]
   }

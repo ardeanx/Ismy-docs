@@ -1,7 +1,8 @@
 {
-  "name": "docs",
+  "name": "ismy-docs",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "npm@10.8.1",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

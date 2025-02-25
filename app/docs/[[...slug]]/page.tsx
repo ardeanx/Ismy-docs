@@ -11,6 +11,7 @@ import { } from 'react';
 import defaultMdxComponents from 'fumadocs-ui/mdx';
 import { Accordion, Accordions } from 'fumadocs-ui/components/accordion';
 import { Rate } from '@/lib/rate';
+import { ImageZoom } from 'fumadocs-ui/components/image-zoom';
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;
@@ -26,7 +27,8 @@ export default async function Page(props: {
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
-        <MDX components={{ ...defaultMdxComponents, Accordion, Accordions}} />
+        <MDX components={{ ...defaultMdxComponents, Accordion, Accordions, img: (props) => <ImageZoom {...props} style={{borderRadius: '8px'}} />
+}} />
       </DocsBody>
       <Rate
         onRateAction={async (_url, _feedback) => {
