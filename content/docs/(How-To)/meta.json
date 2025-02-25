@@ -6,7 +6,7 @@
         "shorten-link",
         "create-filelink",
         "create-vcard",
-        "create-event",
+        "create-eventlink",
         "create-staticsite",
         "create-qrcode",
         "create-signature",

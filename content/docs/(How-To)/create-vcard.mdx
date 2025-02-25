@@ -1,10 +1,66 @@
 ---
 title: Create VCards Link
-description: How to create & Modify your BioLinks
+description: How to create & Modify your VCards
 icon: IdCard
 ---
 
+import { Step, Steps } from 'fumadocs-ui/components/steps';
+import { ExternalLinkIcon, PhoneCall, LucideFacebook, LockOpenIcon, Link, Activity, ScreenShare } from 'lucide-react';
 
 ## Information
 
 VCards are a great way to share your contact information with others. They are a digital business card that can be shared via email, text message, or social media. VCards can include your name, phone number, email address, website, and more. You can create a VCard using a variety of tools, including online VCard generators, email programs, and contact management software. In this article, we'll show you how to create a VCard using the Contacts app on your iPhone or iPad.
+
+<videos controls>
+  <video src="/vcards.mp4" playsInline muted controls controlsList="nodownload" style={{borderRadius: '8px'}}/>
+</videos>
+
+## Steps
+
+<Steps>
+<Step>
+
+### Login to your Account at IsmyBio
+
+Click here to [Login](https://ismy.bio/login)
+
+</Step>
+
+<Step>
+
+### Navigate to the VCard Page
+
+Click on the `VCards` menu on the left side of the dashboard.
+
+</Step>
+
+<Step>
+
+### Create a New VCard
+
+Click on the `Add New` button to create a new VCard.
+
+</Step>
+
+</Steps>
+
+## VCards Features
+
+<Cards>
+  <Card icon={<LucideFacebook/>} title="Media Social Integration" />
+  <Card icon={<PhoneCall/>} title="Receive Direct Call" />
+  <Card icon={<Activity/>} title="Pixel Tracking" />
+  <Card icon={<Link/>} title="Temporary URL" />
+  <Card icon={<LockOpenIcon/>} title="VCards Protection" />
+  <Card icon={<ScreenShare/>} title="Use Splash Screen" />
+</Cards>
+
+
+## Resources
+
+Some useful resources you might interesed:
+
+<Cards>
+  <Card icon={<ExternalLinkIcon/>} title="What is VCards?" href="/docs/getting-started" />
+  <Card icon={<ExternalLinkIcon/>} title="Create VCards Now!" href="https://ismy.bio" />
+</Cards>
